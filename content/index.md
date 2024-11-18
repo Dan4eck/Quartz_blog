@@ -1,13 +1,8 @@
 ---
-title: Home
+title: "Твой гид в мире AI: Лайфхаки и инструкции!"
 ---
+`Статьи:` | [[3X-UI panel VLESS]] | [[Bolt.new local]] |
 
-Welcome to my digital garden!
-
-# Я РАСКАТИЛ СВОЙ ПЕРВЫЙ ОБСИДИАН-БЛОГ!
-
-[[file 2]] 
-
-
-dhbdfj
-
+![[Terminator_.png]]
+___
+![[Проводник]]
