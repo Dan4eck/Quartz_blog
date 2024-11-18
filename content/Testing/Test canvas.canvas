@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"d93ea91101c54a40","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"Привет"},
+		{"id":"55b322a6888b8005","x":246,"y":-30,"width":250,"height":60,"type":"text","text":"Пока"}
+	],
+	"edges":[
+		{"id":"1085483b17c21774","fromNode":"d93ea91101c54a40","fromSide":"right","toNode":"55b322a6888b8005","toSide":"left"}
+	]
+}
