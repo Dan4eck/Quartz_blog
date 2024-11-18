@@ -1,3 +1,3 @@
 ---
-title: Статья 3
+title: Git и Github
 ---
