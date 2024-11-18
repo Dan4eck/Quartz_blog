@@ -1,3 +1,3 @@
 ---
-title: Git и Github
+title: Git & Github
 ---
