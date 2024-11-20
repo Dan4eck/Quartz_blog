@@ -101,6 +101,26 @@
 - Самый простой способ — сгенерировать QR-код через веб-интерфейс и отсканировать его на устройстве.
 - Из этой статьи можно скачать подходящий клиент для различных платформ: [Клиенты VLESS, Shadowsocks, Trojan (Xray, Sing-box) для Windows, Android, iOS, MacOS, Linux](https://itdog.info/klienty-vless-shadowsocks-trojan-xray-sing-box-dlya-windows-android-ios-macos-linux/#v2rayng)
 
+**Где взять данные для подключения клиента?**
+
+- Пункт меню подключения
+
+![[Screenshot 2024-11-21 at 04.00.10.png]]
+
+- Нажмите на три точки
+
+![[Screenshot 2024-11-21 at 04.02.58.png]]
+
+- Введите любое имя или email
+- В пункте Flow нужно выбрать xtls-rprx-vision
+- Добавить пользователя
+
+![[Screenshot 2024-11-21 at 04.04.18.png]]
+
+- Отсканируйте клиентом QR-код или скопируйте ссылку для подключения
+
+![[Screenshot 2024-11-21 at 04.11.01.png]]
+
 ## Заключение
 
 Теперь ваш VPN VLESS с XTLS-Reality настроен и готов к использованию. С его помощью вы можете получать доступ к таким сервисам, как Adobe, OpenAI, Anthropic, Midjourney, Canva, Notion, а также GitHub, Slack, Figma, Trello и Asana — при условии, что ваши учетные записи на этих платформах не заблокированы.
