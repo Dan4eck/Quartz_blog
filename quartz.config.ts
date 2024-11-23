@@ -17,10 +17,12 @@ const config: QuartzConfig = {
     },
     locale: "ru-RU",
     baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian", "my_sketches"],
+    ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
+      fontOrigin: "googleFonts",
+      cdnCaching: true,
       typography: {
         header: "Schibsted Grotesk",
         body: "Source Sans Pro",
@@ -28,62 +30,30 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#eceff4",      // nord6
-          lightgray: "#e5e9f0",  // nord5
-          gray: "#4c566a",       // nord3
-          darkgray: "#3b4252",   // nord1
-          dark: "#2e3440",       // nord0
-          secondary: "#88c0d0",  // nord8
-          tertiary: "#81a1c1",   // nord9
-          highlight: "rgba(136, 192, 208, 0.15)", // nord8 with alpha
+          light: "#faf8f8",
+          lightgray: "#e5e5e5",
+          gray: "#b8b8b8",
+          darkgray: "#4e4e4e",
+          dark: "#2b2b2b",
+          secondary: "#284b63",
+          tertiary: "#84a59d",
+          highlight: "rgba(143, 159, 169, 0.15)",
+          textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#2e3440",      // nord0
-          lightgray: "#3b4252",  // nord1
-          gray: "#4c566a",       // nord3
-          darkgray: "#d8dee9",   // nord4
-          dark: "#eceff4",       // nord6
-          secondary: "#88c0d0",  // nord8
-          tertiary: "#81a1c1",   // nord9
-          highlight: "rgba(136, 192, 208, 0.15)", // nord8 with alpha
+          light: "#161618",
+          lightgray: "#393639",
+          gray: "#646464",
+          darkgray: "#d4d4d4",
+          dark: "#ebebec",
+          secondary: "#7b97aa",
+          tertiary: "#84a59d",
+          highlight: "rgba(143, 159, 169, 0.15)",
+          textHighlight: "#b3aa0288",
         },
       },
     },
   },
-  //   theme: {
-  //     fontOrigin: "googleFonts",
-  //     cdnCaching: true,
-  //     typography: {
-  //       header: "Schibsted Grotesk",
-  //       body: "Source Sans Pro",
-  //       code: "IBM Plex Mono",
-  //     },
-  //     colors: {
-  //       lightMode: {
-  //         light: "#faf8f8",
-  //         lightgray: "#e5e5e5",
-  //         gray: "#b8b8b8",
-  //         darkgray: "#4e4e4e",
-  //         dark: "#2b2b2b",
-  //         secondary: "#284b63",
-  //         tertiary: "#84a59d",
-  //         highlight: "rgba(143, 159, 169, 0.15)",
-  //         textHighlight: "#fff23688",
-  //       },
-  //       darkMode: {
-  //         light: "#161618",
-  //         lightgray: "#393639",
-  //         gray: "#646464",
-  //         darkgray: "#d4d4d4",
-  //         dark: "#ebebec",
-  //         secondary: "#7b97aa",
-  //         tertiary: "#84a59d",
-  //         highlight: "rgba(143, 159, 169, 0.15)",
-  //         textHighlight: "#b3aa0288",
-  //       },
-  //     },
-  //   },
-  // },
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
