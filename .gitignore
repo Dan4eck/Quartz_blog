@@ -1,11 +1,6 @@
-.DS_Store
-.gitignore
-node_modules
-public
-prof
-tsconfig.tsbuildinfo
-.obsidian
-.quartz-cache
-private/
-.replit
-replit.nix
+# Игнорировать все файлы и папки
+*
+
+# Убрать из игнорирования директорию content и её содержимое
+!content/
+!content/**
