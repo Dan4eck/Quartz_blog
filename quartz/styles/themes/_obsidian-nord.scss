@@ -1,0 +1,54 @@
+// Obsidian Nord Theme
+:root {
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+    --nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --nord15: #b48ead;
+}
+
+body {
+    --background-primary: var(--nord0);
+    --background-secondary: var(--nord1);
+    --background-tertiary: var(--nord2);
+    
+    --text-normal: var(--nord4);
+    --text-muted: var(--nord3);
+    --text-faint: var(--nord3);
+    
+    --text-title: var(--nord6);
+    --text-subtitle: var(--nord5);
+    
+    --text-link: var(--nord8);
+    --text-link-hover: var(--nord7);
+    
+    --text-accent: var(--nord8);
+    --interactive-accent: var(--nord8);
+    
+    --code-background: var(--nord1);
+    --code-normal: var(--nord4);
+    
+    --tag-background: var(--nord2);
+    --tag-color: var(--nord4);
+    
+    --border-color: var(--nord2);
+}
+
+// Dark mode specific styles
+body.dark {
+    --background-primary: var(--nord0);
+    --background-secondary: var(--nord1);
+    --text-normal: var(--nord4);
+    --text-muted: var(--nord3);
+}
