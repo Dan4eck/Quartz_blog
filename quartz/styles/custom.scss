@@ -1,4 +1,77 @@
 @use "./base.scss";
-@use "./themes";
+@use "./themes/obsidian-nord";
 
 // put your custom CSS here!
+
+// Custom styles using Nord palette
+:root {
+    --nord0: #2e3440; /* Темный серо-синий (Dark Grayish Blue) */
+    --nord1: #3b4252; /* Очень темный серо-синий (Very Dark Grayish Blue) */
+    --nord2: #434c5e; /* Темный серо-синий с оттенком зелёного (Dark Greenish Grayish Blue) */
+    --nord3: #4c566a; /* Темный серо-синий с легким серым (Dark Grayish Blue-Grey) */
+    --nord4: #d8dee9; /* Светло-серый с синим оттенком (Light Bluish Gray) */
+    --nord5: #e5e9f0; /* Очень светло-серый с синевой (Very Light Bluish Gray) */
+    --nord6: #eceff4; /* Белый с легким голубым (Whitish Blue) */
+    --nord7: #8fbcbb; /* Мягкий бирюзовый (Soft Turquoise) */
+    --nord8: #88c0d0; /* Яркий бирюзовый (Bright Turquoise) */
+    --nord9: #81a1c1; /* Светлый синий (Light Blue) */
+    --nord10: #5e81ac; /* Средний синий (Moderate Blue) */
+    --nord11: #bf616a; /* Красноватый розовый (Reddish Pink) */
+    --nord12: #d08770; /* Светлый оранжевый (Light Orange) */
+    --nord13: #ebcb8b; /* Светлый жёлтый (Light Yellow) */
+    --nord14: #a3be8c; /* Светло-зелёный (Light Green) */
+    --nord15: #b48ead; /* Светлый фиолетовый (Light Purple) */
+    
+    // --nord7: #8fbcbb;  // Мятный
+    // --nord8: #88c0d0;  // Голубой
+    // --nord9: #81a1c1;  // Синий
+    // --nord10: #5e81ac; // Тёмно-синий
+    // --nord11: #bf616a; // Красный
+    // --nord12: #d08770; // Оранжевый
+    // --nord13: #ebcb8b; // Жёлтый
+    // --nord14: #a3be8c; // Зелёный
+    // --nord15: #b48ead; // Пурпурный
+  }
+  
+  // Заголовки
+  h1 {
+    color: var(--nord11);
+  }
+  
+  h2 {
+    color: var(--nord13);
+  }
+  
+  h3 {
+    color: var(--nord14);
+  }
+  
+  h4 {
+    color: var(--nord15);
+  }
+
+  h5 {
+    color: var(--nord9);
+  }
+
+  h6 {
+    color: var(--nord10);
+  }
+  
+  // Жирный текст
+  strong {
+    color: var(--nord13); // Желтый для жирного текста
+  }
+  
+  // Курсив
+  em {
+    color: var(--nord13); // Желтый для курсива
+  }
+  
+  // Ссылки
+  a {
+    color: var(--nord8); // Голубой для ссылок
+    &:hover {
+      color: var(--nord7); // Мятный при наведении
+    }
+  }
