@@ -178,7 +178,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
       searchBar.value = "" // clear the input when we dismiss the search
     }
     if (sidebar) {
-      sidebar.style.zIndex = ""
+      sidebar.style.zIndex = "unset"
     }
     if (results) {
       removeAllChildren(results)
