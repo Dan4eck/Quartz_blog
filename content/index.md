@@ -4,7 +4,7 @@ tags:
   - главная
 "layout:": default
 ---
-`Статьи:` | [[3X-UI panel VLESS]] | [[Bolt.new local]] | [[Github и Git – основные команды]] | [[1. Основы Markdown]] | 
+`Статьи:` | [[3X-UI panel VLESS]] | [[Bolt.new local]] | [[1. Github и Git – основные команды]] | [[1. Основы Markdown]] | 
 
 ![[Ai.png]]
 ___
