@@ -1,5 +1,5 @@
 ---
-title: Obsidian
+title: 1. Obsidian
 tags:
   - obsidian
   - markdown
