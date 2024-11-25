@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "💻 ПродСовет \nCommunity blog",
+    pageTitle: "💻 ПродСовет \nCommunity Blog",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -21,6 +21,7 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
+      defaultMode: "dark", // варианты: "light", "dark", "system"
       typography: {
         header: "Schibsted Grotesk",
         body: "Source Sans Pro",
