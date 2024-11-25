@@ -12,14 +12,14 @@ jobs:
     steps:
       # Шаг 1: Клонирование основного репозитория
       - name: Checkout Main Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: v4  # Указываем ветку v4
           path: main
 
       # Шаг 2: Клонирование резервного репозитория
       - name: Checkout Backup Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: Gennady87/blog
           ref: v4  # Указываем ветку v4
