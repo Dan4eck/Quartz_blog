@@ -1,5 +1,5 @@
 ---
-title: "Твой гид в мире AI: Лайфхаки и инструкции!"
+title: "Блог сообщества:"
 tags:
   - главная
 "layout:": default
@@ -7,5 +7,7 @@ tags:
 `Статьи:` | [[3X-UI panel VLESS]] | [[Bolt.new local]] | [[1. Github и Git – основные команды]] | [[2. Git для Obsidian]] | [[1. Основы Markdown]] | [[2. Введение в Obsidian]] | [[3. Плагины для Obsidian]] |
 
 ![[Ai_.png]]
+
+![[Ai 2.png]]
 ___
 ![[Проводник]]
