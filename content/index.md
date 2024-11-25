@@ -6,6 +6,7 @@ tags:
 ---
 `Статьи:` | [[3X-UI panel VLESS]] | [[Bolt.new local]] | [[1. Github и Git – основные команды]] | [[2. Git для Obsidian]] | [[1. Основы Markdown]] | [[2. Введение в Obsidian]] | [[3. Плагины для Obsidian]] |
 
-![[Ai_USSR__.png]]
+![[Ai_USSR_1.png]]
+
 ___
 ![[Проводник]]
