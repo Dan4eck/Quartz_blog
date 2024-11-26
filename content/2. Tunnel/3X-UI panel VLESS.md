@@ -123,6 +123,6 @@
 
 ## Заключение
 
-Теперь ваш туннель VLESS с XTLS-Reality настроен и готов к использованию. Он позволяет вам беспрепятственно работать с такими сервисами, как Adobe, OpenAI, Anthropic, Midjourney, Canva, Notion, а также GitHub, Slack, Figma, Trello, Asana и др., при условии, что ваши учетные записи на этих платформах не заблокированы.
+Теперь ваш туннель VLESS с XTLS-Reality настроен и готов к использованию. Он позволяет вам безопасно работать с такими сервисами, как Adobe, OpenAI, Anthropic, Midjourney, Canva, Notion, GitHub, Slack, Figma, Trello, Asana, AWS, GCP, Microsoft Azure, Docker Hub, Atlassian (Jira, Confluence), а также многими другими, при условии, что ваши учетные записи на этих платформах не заблокированы.
 
 #tunnel 
