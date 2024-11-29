@@ -1,5 +1,5 @@
 ---
-title: Сообщество
+title: Community
 tags:
   - community
 "layout:": category
