@@ -1,5 +1,5 @@
 ---
-title: Community
+title: 0. Community
 tags:
   - community
 "layout:": category
