@@ -11,10 +11,14 @@
             "id": "2995bd7214d64003",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Оглавление.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Оглавление"
             }
           }
         ]
@@ -154,6 +158,11 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "2995bd7214d64003",
-  "lastOpenFiles": []
+  "active": "f4c278b90ae489ee",
+  "lastOpenFiles": [
+    "Drafts/Для соавторов/media/Screenshot 2024-12-01 at 01.26.36.png",
+    "Drafts/Для соавторов/media/Screenshot 2024-12-01 at 01.25.22.png",
+    "Drafts/Для соавторов/media/Screenshot 2024-12-01 at 02.06.18.png",
+    "Drafts/Для соавторов/media/Screenshot 2024-12-01 at 01.57.57.png"
+  ]
 }
