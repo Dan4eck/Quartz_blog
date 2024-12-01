@@ -63,6 +63,7 @@ git clone https://github.com/Dan4eck/ProdAdvice_DB
 1. Перейдите в настройки и выберите `Appearance` (Оформление).
 2. Найдите и установите тему `Obsidian Nord`:
 
+   > 
    ![[Screenshot 2024-12-01 at 01.25.22.webp]]
    ![[Screenshot 2024-12-01 at 01.26.36.webp]]
 
@@ -75,11 +76,11 @@ git clone https://github.com/Dan4eck/ProdAdvice_DB
 1. Перейдите в «Настройки» → «Community Plugins/Сторонние плагины».
 2. Включите плагины сообщества, выберите нужный плагин из списка и установите его.
 
-   ![[Screenshot 2024-12-01 at 02.40.51.webp]]
+> ![[Screenshot 2024-12-01 at 02.40.51.webp]]
 
 3. Обзор:
 
-   ![[Screenshot 2024-12-01 at 02.42.16.webp]]
+> ![[Screenshot 2024-12-01 at 02.42.16.webp]]
 
 #### Рекомендуемые плагины
 
@@ -90,14 +91,14 @@ git clone https://github.com/Dan4eck/ProdAdvice_DB
 
 - **Editing Toolbar**: Панель инструментов для улучшенного редактирования текста, похожая на MS Word.
 
-  ![[Screenshot 2024-12-01 at 03.29.58.webp]]
+>  ![[Screenshot 2024-12-01 at 03.29.58.webp]]
 
 - **Kanban**: Позволяет создавать доски Kanban для управления проектами.
 - **Mind Map**: Создаёт майндмэп из заметок Obsidian для визуального представления информации.
 - **Advanced Tables**: Улучшает работу с таблицами, позволяя легко форматировать и управлять содержимым.
 - **Markdown Formatting Assistant**: Боковая панель для быстрого форматирования текста в Markdown.
 
-  ![[Screenshot 2024-12-01 at 03.35.27.webp]]
+> ![[Screenshot 2024-12-01 at 03.35.27.webp]]
 
 - **Copilot**: Интеграция с ChatGPT для автоматизации задач и генерации контента.
 - **Excalidraw**: для создания и редактирования рисунков, прямо внутри Obsidian, с поддержкой работы с графикой.
