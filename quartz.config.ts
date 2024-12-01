@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "ru-RU",
-    baseUrl: "/ProdAdvice_DB",
+    baseUrl: "dan4eck.github.io/ProdAdvice_DB/",
     ignorePatterns: ["private", "templates", ".obsidian", "my_sketches", "Drafts"],
     defaultDateType: "created",
     generateSocialImages: false,
