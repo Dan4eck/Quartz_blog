@@ -27,30 +27,30 @@ const config: QuartzConfig = {
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
       },
-  //     colors: {
-  //       lightMode: {
-  //         light: "#eceff4",      // nord6
-  //         lightgray: "#e5e9f0",  // nord5
-  //         gray: "#4c566a",       // nord3
-  //         darkgray: "#3b4252",   // nord1
-  //         dark: "#2e3440",       // nord0
-  //         secondary: "#88c0d0",  // nord8
-  //         tertiary: "#81a1c1",   // nord9
-  //         highlight: "rgba(136, 192, 208, 0.15)", // nord8 with alpha
-  //       },
-  //       darkMode: {
-  //         light: "#2e3440",      // nord0
-  //         lightgray: "#3b4252",  // nord1
-  //         gray: "#4c566a",       // nord3
-  //         darkgray: "#d8dee9",   // nord4
-  //         dark: "#eceff4",       // nord6
-  //         secondary: "#88c0d0",  // nord8
-  //         tertiary: "#81a1c1",   // nord9
-  //         highlight: "rgba(136, 192, 208, 0.15)", // nord8 with alpha
+      colors: {
+        lightMode: {
+          light: "#eceff4",      // nord6
+          lightgray: "#e5e9f0",  // nord5
+          gray: "#4c566a",       // nord3
+          darkgray: "#3b4252",   // nord1
+          dark: "#2e3440",       // nord0
+          secondary: "#88c0d0",  // nord8
+          tertiary: "#81a1c1",   // nord9
+          highlight: "rgba(136, 192, 208, 0.15)", // nord8 with alpha
         },
-  //     },
-  //   },
-  // },
+        darkMode: {
+          light: "#2e3440",      // nord0
+          lightgray: "#3b4252",  // nord1
+          gray: "#4c566a",       // nord3
+          darkgray: "#d8dee9",   // nord4
+          dark: "#eceff4",       // nord6
+          secondary: "#88c0d0",  // nord8
+          tertiary: "#81a1c1",   // nord9
+          highlight: "rgba(136, 192, 208, 0.15)", // nord8 with alpha
+        },
+      },
+    },
+  },
   //   theme: {
   //     fontOrigin: "googleFonts",
   //     cdnCaching: true,
