@@ -295,8 +295,8 @@ body {
     --interactive-accent: var(--nord8);
 
     // Цвета для кода
-    --code-background: var(--nord3);
-    --code-normal: var(--nord8);
+    --code-background: var(--nord1);
+    --code-normal: var(--nord4);
 
     // Цвета тегов
     --tag-background: var(--nord2);
@@ -312,6 +312,10 @@ body.dark {
     --background-secondary: var(--nord1);
     --text-normal: var(--nord4);
     --text-muted: var(--nord3);
+
+    // Фон блока кода и цвет текста в темной теме
+    --code-background: var(--nord3);
+    --code-normal: var(--nord8);
 }
 
 // Mermaid стили
