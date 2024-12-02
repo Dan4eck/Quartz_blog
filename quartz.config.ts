@@ -20,13 +20,13 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian", "my_sketches", "Drafts"],
     defaultDateType: "created",
     generateSocialImages: false,
-  //   theme: {
-  //     defaultMode: "dark", // варианты: "light", "dark", "system"
-  //     typography: {
-  //       header: "Schibsted Grotesk",
-  //       body: "Source Sans Pro",
-  //       code: "IBM Plex Mono",
-  //     },
+    theme: {
+      defaultMode: "dark", // варианты: "light", "dark", "system"
+      typography: {
+        header: "Schibsted Grotesk",
+        body: "Source Sans Pro",
+        code: "IBM Plex Mono",
+      },
   //     colors: {
   //       lightMode: {
   //         light: "#eceff4",      // nord6
@@ -47,7 +47,7 @@ const config: QuartzConfig = {
   //         secondary: "#88c0d0",  // nord8
   //         tertiary: "#81a1c1",   // nord9
   //         highlight: "rgba(136, 192, 208, 0.15)", // nord8 with alpha
-  //       },
+        },
   //     },
   //   },
   // },
