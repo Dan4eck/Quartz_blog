@@ -94,10 +94,23 @@ const config: QuartzConfig = {
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
-          dark: "github-dark",
+          dark: {
+            name: "custom-dark",
+            settings: {
+              backgroundColor: "#4c566a", // nord3 - фон блока кода
+              textColor: "#88c0d0",       // nord8 - цвет текста
+            },
+          },
         },
-        keepBackground: false,
-      }),
+        keepBackground: true, // Сохранить фоновый цвет
+      }),      
+      // Plugin.SyntaxHighlighting({
+      //   theme: {
+      //     light: "github-light",
+      //     dark: "github-dark",
+      //   },
+      //   keepBackground: false,
+      // }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
