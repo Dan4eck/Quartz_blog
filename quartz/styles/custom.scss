@@ -2,6 +2,16 @@
 @use "./themes/_obsidian-nord.scss";
 // @use "./themes/obsidian-nord/theme.css";
 
+body.dark pre,
+body.dark pre > code,
+body.dark code {
+    background-color: var(--nord3) !important; /* Фон блока кода */
+    color: var(--nord8) !important; /* Цвет текста кода */
+    padding: 10px !important; /* Добавляем padding для улучшения отображения */
+    border-radius: 5px; /* Немного скругляем углы для проверки изменений */
+}
+
+
 // put your custom CSS here!
 // @use "./themes";
 
