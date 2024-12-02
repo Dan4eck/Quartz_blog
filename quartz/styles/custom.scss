@@ -1,12 +1,11 @@
 @use "./base.scss";
-// // @use "./themes/_obsidian-nord.scss";
+// @use "./themes/_obsidian-nord.scss";
 @use "./themes/obsidian-nord/theme.css";
-// @use "./themes/Theme.scss"
 
-// // put your custom CSS here!
-// // @use "./themes";
+// put your custom CSS here!
+// @use "./themes";
 
-// // Custom styles using Nord palette
+// Custom styles using Nord palette
 :root {
   --nord0: #2e3440; /* Темный серо-синий (Dark Grayish Blue) */
   --nord1: #3b4252; /* Очень темный серо-синий (Very Dark Grayish Blue) */
@@ -81,8 +80,6 @@ a {
     color: var(--nord10); // Синий при наведении
   }
 }
-
-// ---
 
 // // Инлайновый код (<code>)
 // code {
