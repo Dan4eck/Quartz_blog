@@ -1,10 +1,11 @@
 @use "./base.scss";
+// // @use "./themes/_obsidian-nord.scss";
 @use "./themes/obsidian-nord/theme.css";
 
-// put your custom CSS here!
-// @use "./themes";
+// // put your custom CSS here!
+// // @use "./themes";
 
-// Custom styles using Nord palette
+// // Custom styles using Nord palette
 :root {
   --nord0: #2e3440; /* Темный серо-синий (Dark Grayish Blue) */
   --nord1: #3b4252; /* Очень темный серо-синий (Very Dark Grayish Blue) */
@@ -34,7 +35,10 @@
   // --nord15: #b48ead; // Пурпурный
 }
 
-// Заголовки
+Заголовки
+
+
+
 h1 {
   color: var(--nord11);
 }
@@ -76,3 +80,240 @@ a {
     color: var(--nord10); // Синий при наведении
   }
 }
+
+// ---
+
+// Инлайновый код (<code>)
+code {
+  background-color: var(--code-background);
+  color: var(--code-normal);
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
+}
+
+// // Блоки кода (<pre>)
+// pre {
+//   background-color: var(--code-background);
+//   color: var(--code-normal);
+//   padding: 1em;
+//   border-radius: 0.5em;
+//   overflow-x: auto;
+// }
+
+// // Mermaid-specific styling
+
+// // Общие стили для заметок
+// .mermaid .note,
+// .mermaid g.note rect {
+//   fill: var(--nord8) !important; /* Бирюзовый для заметок */
+// }
+
+// // Стили для линий циклов
+// .mermaid .loopLine {
+//   stroke: var(--nord7) !important; /* Мягкий бирюзовый для линий циклов */
+// }
+
+// // Стили для меток сущностей
+// .mermaid .entityLabel,
+// .mermaid .entityLabel text {
+//   fill: var(--nord15) !important; /* Светлый фиолетовый */
+// }
+
+
+
+
+// NEW
+
+// Основные переменные Nord (если не подтягиваются из _obsidian-nord.scss)
+// 
+
+// Newest
+
+// :root {
+//   --nord0: #2e3440;
+//   --nord1: #3b4252;
+//   --nord2: #434c5e;
+//   --nord3: #4c566a;
+//   --nord4: #d8dee9;
+//   --nord5: #e5e9f0;
+//   --nord6: #eceff4;
+//   --nord7: #8fbcbb;
+//   --nord8: #88c0d0;
+//   --nord9: #81a1c1;
+//   --nord10: #5e81ac;
+//   --nord11: #bf616a;
+//   --nord12: #d08770;
+//   --nord13: #ebcb8b;
+//   --nord14: #a3be8c;
+//   --nord15: #b48ead;
+
+//   /* Стили для основного фона и текста */
+//   --background-primary: var(--nord0);
+//   --background-secondary: var(--nord1);
+//   --background-tertiary: var(--nord2);
+//   --text-normal: var(--nord4);
+//   --text-muted: var(--nord3);
+//   --text-faint: var(--nord3);
+//   --text-title: var(--nord6);
+//   --text-subtitle: var(--nord5);
+  
+//   /* Стили для ссылок и интерактивных элементов */
+//   --text-link: var(--nord8);
+//   --text-link-hover: var(--nord7);
+//   --interactive-accent: var(--nord8);
+  
+//   /* Цвета для тегов и границ */
+//   --tag-background: var(--nord2);
+//   --tag-color: var(--nord4);
+//   --border-color: var(--nord2);
+  
+//   /* Коды и текст с подложкой */
+//   --code-background: var(--nord1);
+//   --code-normal: var(--nord4);
+
+//   /* Стили для элементов навигации и выделения */
+//   --nav-file-tag: var(--nord11); // Красноватый розовый для тегов в навигации
+//   --mermaid-note: var(--nord15);
+//   --mermaid-loopline: var(--nord8);
+//   --mermaid-exclude: var(--nord3);
+//   --mermaid-seqnum: var(--nord4);
+// }
+
+// body.dark {
+//   background-color: var(--background-primary);
+//   color: var(--text-normal);
+// }
+
+// /* Заголовки */
+// h1 {
+//   color: var(--nord11); // Красноватый розовый для H1
+// }
+
+// h2 {
+//   color: var(--nord13); // Светло-желтый для H2
+// }
+
+// h3 {
+//   color: var(--nord14); // Светло-зеленый для H3
+// }
+
+// h4 {
+//   color: var(--nord15); // Светлый фиолетовый для H4
+// }
+
+// h5 {
+//   color: var(--nord9); // Синий для H5
+// }
+
+// h6 {
+//   color: var(--nord10); // Средний синий для H6
+// }
+
+// /* Жирный текст */
+// strong {
+//   color: var(--nord13); // Желтый для жирного текста
+// }
+
+// /* Курсив */
+// em {
+//   color: var(--nord13); // Желтый для курсива
+// }
+
+// /* Ссылки */
+// a {
+//   color: var(--text-link); // Бирюзовый для ссылок
+//   &:hover {
+//     color: var(--text-link-hover); // Мягкий бирюзовый при наведении
+//   }
+// }
+
+// /* Теги */
+// .tag {
+//   background-color: var(--tag-background);
+//   color: var(--tag-color);
+//   padding: 0.2em 0.5em;
+//   border-radius: 0.3em;
+// }
+
+// /* Стили таблиц */
+// table {
+//   border: 1px solid var(--border-color) !important;
+//   border-collapse: collapse;
+// }
+
+// thead {
+//   border-bottom: 2px solid var(--border-color) !important;
+// }
+
+// th {
+//   font-weight: 600 !important;
+//   border: 1px solid var(--border-color) !important;
+// }
+
+// td {
+//   border-left: 1px solid var(--border-color) !important;
+//   border-right: 1px solid var(--border-color) !important;
+//   border-bottom: 1px solid var(--border-color) !important;
+// }
+
+// .markdown-rendered tbody tr:nth-child(even) {
+//   background-color: var(--background-secondary) !important;
+// }
+
+// .markdown-rendered tbody tr:nth-child(odd) {
+//   background-color: var(--background-tertiary) !important;
+// }
+
+// .markdown-rendered tbody tr:hover {
+//   background-color: var(--background-secondary) !important;
+// }
+
+// /* Mermaid-specific styling для обеспечения соответствия стилю Obsidian */
+// .mermaid {
+//   .note {
+//     fill: var(--mermaid-note) !important;
+//   }
+
+//   .loopLine {
+//     stroke: var(--mermaid-loopline) !important;
+//   }
+
+//   .entityLabel {
+//     fill: var(--nord9) !important; // Светлый синий для меток сущностей
+//   }
+
+//   .exclude-range {
+//     fill: var(--mermaid-exclude) !important; // Темный цвет для "exclude"
+//   }
+
+//   .sequenceNumber {
+//     fill: var(--mermaid-seqnum) !important; // Светлый серо-голубой для номеров последовательностей
+//   }
+// }
+
+// /* Коды и текст с подложкой */
+// code {
+//   background-color: var(--code-background);
+//   color: var(--code-normal);
+//   padding: 0.1em 0.3em;
+//   border-radius: 0.3em;
+// }
+
+// pre {
+//   background-color: var(--code-background);
+//   color: var(--code-normal);
+//   padding: 1em;
+//   border-radius: 0.5em;
+//   overflow-x: auto;
+// }
+
+// /* Элементы навигации */
+// .nav-file-tag {
+//   color: var(--nav-file-tag); // Красноватый розовый для тегов в навигации
+// }
+
+// /* Элементы заметок и выделение текста */
+// .markdown-rendered mark {
+//   background-color: var(--nord13);
+//   color: var(--nord0);
+// }
