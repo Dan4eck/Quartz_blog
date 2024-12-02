@@ -381,25 +381,93 @@ a {
 }
 
 // Стили для таблиц
+
+// Стили для таблиц
 table {
-    border: 1px solid var(--border-color) !important;
-    border-collapse: collapse;
+    width: 100%; /* Устанавливает ширину таблицы на 100% */
+    border-collapse: separate; /* Используем separate для возможности закругления углов */
+    border-spacing: 0; /* Убираем расстояние между ячейками */
+    margin: 20px 0; /* Добавляет отступы сверху и снизу */
+    border: 1px solid var(--border-color); /* Основной цвет рамки таблицы */
+    border-radius: 8px; /* Закругленные углы таблицы */
+    overflow: hidden; /* Убирает углы рамки, чтобы не выходили за границы таблицы */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Добавляем тень */
 }
 
+// Стили для заголовков таблицы
 thead {
-    border-bottom: 2px solid var(--border-color) !important;
+    background-color: var(--frost1); /* Цвет фона заголовка */
+    color: var(--light3); /* Цвет текста заголовка */
+    text-align: left; /* Выравнивание текста влево */
+    font-weight: bold;
 }
 
 th {
-    font-weight: 600 !important;
-    border: 1px solid var(--border-color) !important;
+    padding: 12px; /* Внутренние отступы в заголовках */
+    border-bottom: 2px solid var(--dark3); /* Линия под заголовком */
 }
 
+// Стили для ячеек таблицы
 td {
-    border-left: 1px solid var(--border-color) !important;
-    border-right: 1px solid var(--border-color) !important;
-    border-bottom: 1px solid var(--border-color) !important;
+    padding: 10px 12px; /* Добавляет внутренние отступы */
+    border-bottom: 1px solid var(--border-color); /* Добавляет рамку снизу для каждой ячейки */
+    color: var(--text-normal); /* Цвет текста */
+    background-color: var(--background-secondary); /* Основной цвет фона */
 }
+
+// Полосатая заливка строк
+tbody tr:nth-child(even) {
+    background-color: var(--background-tertiary); /* Цвет фона для четных строк */
+}
+
+// При наведении курсора на строку
+tbody tr:hover {
+    background-color: var(--frost0); /* Изменение цвета строки при наведении */
+    transition: background-color 0.3s ease; /* Анимация при наведении */
+}
+
+// Акцентирование первой колонки таблицы
+tbody td:first-child {
+    font-weight: 600; /* Делаем первый столбец жирным */
+    color: var(--yellow); /* Изменяем цвет текста первой колонки для выделения */
+}
+
+// Стили для закругления углов таблицы (если используются рамки)
+thead th:first-child {
+    border-top-left-radius: 8px; /* Верхний левый угол */
+}
+
+thead th:last-child {
+    border-top-right-radius: 8px; /* Верхний правый угол */
+}
+
+tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 8px; /* Нижний левый угол */
+}
+
+tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 8px; /* Нижний правый угол */
+}
+
+// table {
+//     border: 1px solid var(--border-color) !important;
+//     border-collapse: collapse;
+// }
+
+// thead {
+//     border-bottom: 2px solid var(--border-color) !important;
+// }
+
+// th {
+//     font-weight: 600 !important;
+//     border: 1px solid var(--border-color) !important;
+// }
+
+// td {
+//     border-left: 1px solid var(--border-color) !important;
+//     border-right: 1px solid var(--border-color) !important;
+//     border-bottom: 1px solid var(--border-color) !important;
+// }
 
 // Цвет фона строк таблицы
 .markdown-rendered tbody tr:nth-child(even) {
