@@ -318,15 +318,19 @@ body.dark {
     // --code-normal: var(--nord8);
 }
 
-// Стили для блоков кода в темной теме
-body.dark pre,
-body.dark pre > code,
-body.dark code {
-    background-color: var(--nord3) !important; /* Фон блока кода */
-    color: var(--nord8) !important; /* Цвет текста кода */
-    border-radius: 5px; /* Добавляем радиус для проверки, что стили применяются */
-    padding: 10px; /* Отступы для более лучшего внешнего вида */
+body.light h2 {
+    color: var(--nord12) !important; /* Используем nord12 для заголовков h2 в светлой теме */
 }
+
+// Стили для блоков кода в темной теме
+// body.dark pre,
+// body.dark pre > code,
+// body.dark code {
+//     background-color: var(--nord3) !important; /* Фон блока кода */
+//     color: var(--nord8) !important; /* Цвет текста кода */
+//     border-radius: 5px; /* Добавляем радиус для проверки, что стили применяются */
+//     padding: 10px; /* Отступы для более лучшего внешнего вида */
+// }
 
 // Mermaid стили
 .mermaid {
