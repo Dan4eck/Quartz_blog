@@ -2,14 +2,14 @@
 @use "./themes/_obsidian-nord.scss";
 // @use "./themes/obsidian-nord/theme.css";
 
-body.dark pre,
-body.dark pre > code,
-body.dark code {
-    background-color: var(--nord3) !important; /* Фон блока кода */
-    color: var(--nord8) !important; /* Цвет текста кода */
-    padding: 10px !important; /* Добавляем padding для улучшения отображения */
-    border-radius: 5px; /* Немного скругляем углы для проверки изменений */
-}
+// body.dark pre,
+// body.dark pre > code,
+// body.dark code {
+//     background-color: var(--nord3) !important; /* Фон блока кода */
+//     color: var(--nord8) !important; /* Цвет текста кода */
+//     padding: 10px !important; /* Добавляем padding для улучшения отображения */
+//     border-radius: 5px; /* Немного скругляем углы для проверки изменений */
+// }
 
 
 // put your custom CSS here!
@@ -91,22 +91,22 @@ body.dark code {
 //   }
 // }
 
-// // Инлайновый код (<code>)
-// code {
-//   // background-color: var(--code-background);
-//   color: var(--nord8);
-//   padding: 0.1em 0.3em;
-//   border-radius: 0.3em;
-// }
+// Инлайновый код (<code>)
+code {
+  // background-color: var(--code-background);
+  color: var(--nord8);
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
+}
 
-// // Блоки кода (<pre>)
-// pre {
-//   background-color: var(--code-background);
-//   color: var(--code-normal);
-//   padding: 1em;
-//   border-radius: 0.5em;
-//   overflow-x: auto;
-// }
+// Блоки кода (<pre>)
+pre {
+  background-color: var(--code-background);
+  color: var(--code-normal);
+  padding: 1em;
+  border-radius: 0.5em;
+  overflow-x: auto;
+}
 
 // // Mermaid-specific styling
 
