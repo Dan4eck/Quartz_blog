@@ -98,6 +98,10 @@
 // NEW
 
 // Основные переменные Nord (если не подтягиваются из _obsidian-nord.scss)
+// 
+
+// Newest
+
 :root {
   --nord0: #2e3440;
   --nord1: #3b4252;
@@ -115,36 +119,45 @@
   --nord13: #ebcb8b;
   --nord14: #a3be8c;
   --nord15: #b48ead;
-  
-  // Общие стили для фонов и текста
+
+  /* Стили для основного фона и текста */
   --background-primary: var(--nord0);
   --background-secondary: var(--nord1);
   --background-tertiary: var(--nord2);
-  
   --text-normal: var(--nord4);
   --text-muted: var(--nord3);
   --text-faint: var(--nord3);
   --text-title: var(--nord6);
   --text-subtitle: var(--nord5);
   
+  /* Стили для ссылок и интерактивных элементов */
   --text-link: var(--nord8);
   --text-link-hover: var(--nord7);
-  
   --interactive-accent: var(--nord8);
-  --code-background: var(--nord1);
-  --code-normal: var(--nord4);
+  
+  /* Цвета для тегов и границ */
   --tag-background: var(--nord2);
   --tag-color: var(--nord4);
   --border-color: var(--nord2);
+  
+  /* Коды и текст с подложкой */
+  --code-background: var(--nord1);
+  --code-normal: var(--nord4);
+
+  /* Стили для элементов навигации и выделения */
+  --nav-file-tag: var(--nord11); // Красноватый розовый для тегов в навигации
+  --mermaid-note: var(--nord15);
+  --mermaid-loopline: var(--nord8);
+  --mermaid-exclude: var(--nord3);
+  --mermaid-seqnum: var(--nord4);
 }
 
-// Темная тема для всего сайта, следуем оригинальному Nord
 body.dark {
   background-color: var(--background-primary);
   color: var(--text-normal);
 }
 
-// Заголовки
+/* Заголовки */
 h1 {
   color: var(--nord11); // Красноватый розовый для H1
 }
@@ -169,16 +182,17 @@ h6 {
   color: var(--nord10); // Средний синий для H6
 }
 
-// Стили текста
+/* Жирный текст */
 strong {
   color: var(--nord13); // Желтый для жирного текста
 }
 
+/* Курсив */
 em {
   color: var(--nord13); // Желтый для курсива
 }
 
-// Ссылки
+/* Ссылки */
 a {
   color: var(--text-link); // Бирюзовый для ссылок
   &:hover {
@@ -186,7 +200,7 @@ a {
   }
 }
 
-// Теги
+/* Теги */
 .tag {
   background-color: var(--tag-background);
   color: var(--tag-color);
@@ -194,7 +208,7 @@ a {
   border-radius: 0.3em;
 }
 
-// Стили таблиц
+/* Стили таблиц */
 table {
   border: 1px solid var(--border-color) !important;
   border-collapse: collapse;
@@ -227,30 +241,30 @@ td {
   background-color: var(--background-secondary) !important;
 }
 
-// Mermaid-specific styling для обеспечения соответствия стилю Obsidian
+/* Mermaid-specific styling для обеспечения соответствия стилю Obsidian */
 .mermaid {
   .note {
-    fill: var(--nord15) !important; /* Светлый фиолетовый для заметок */
+    fill: var(--mermaid-note) !important;
   }
 
   .loopLine {
-    stroke: var(--nord8) !important; /* Яркий бирюзовый для линий */
+    stroke: var(--mermaid-loopline) !important;
   }
 
   .entityLabel {
-    fill: var(--nord9) !important; /* Светлый синий для меток сущностей */
+    fill: var(--nord9) !important; // Светлый синий для меток сущностей
   }
 
   .exclude-range {
-    fill: var(--nord3) !important; /* Темный цвет для "exclude" */
+    fill: var(--mermaid-exclude) !important; // Темный цвет для "exclude"
   }
 
   .sequenceNumber {
-    fill: var(--nord4) !important; /* Светлый серо-голубой для номеров последовательностей */
+    fill: var(--mermaid-seqnum) !important; // Светлый серо-голубой для номеров последовательностей
   }
 }
 
-// Коды и текст с подложкой
+/* Коды и текст с подложкой */
 code {
   background-color: var(--code-background);
   color: var(--code-normal);
@@ -266,12 +280,12 @@ pre {
   overflow-x: auto;
 }
 
-// Элементы навигации
+/* Элементы навигации */
 .nav-file-tag {
-  color: var(--nord11); // Красноватый розовый для тегов в навигации
+  color: var(--nav-file-tag); // Красноватый розовый для тегов в навигации
 }
 
-// Элементы заметок и выделение текста
+/* Элементы заметок и выделение текста */
 .markdown-rendered mark {
   background-color: var(--nord13);
   color: var(--nord0);
