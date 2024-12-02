@@ -29,7 +29,6 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          h2: "#d08770", // nord12 - оранжевый цвет для заголовка H2 в светлой теме
           light: "#eceff4",      // nord6
           lightgray: "#e5e9f0",  // nord5
           gray: "#4c566a",       // nord3
