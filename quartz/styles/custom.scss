@@ -1,6 +1,6 @@
 @use "./base.scss";
-// @use "./themes/_obsidian-nord.scss";
-@use "./themes/obsidian-nord/theme.css";
+@use "./themes/_obsidian-nord.scss";
+// @use "./themes/obsidian-nord/theme.css";
 
 // put your custom CSS here!
 // @use "./themes";
@@ -99,17 +99,25 @@ pre {
 }
 
 // Mermaid-specific styling
-.mermaid .note {
+
+// Общие стили для заметок
+.mermaid .note,
+.mermaid g.note rect {
   fill: var(--nord8) !important; /* Бирюзовый для заметок */
 }
 
+// Стили для линий циклов
 .mermaid .loopLine {
   stroke: var(--nord7) !important; /* Мягкий бирюзовый для линий циклов */
 }
 
-.mermaid .entityLabel {
+// Стили для меток сущностей
+.mermaid .entityLabel,
+.mermaid .entityLabel text {
   fill: var(--nord15) !important; /* Светлый фиолетовый */
 }
+
+
 
 
 // NEW
