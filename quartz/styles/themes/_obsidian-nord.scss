@@ -406,7 +406,60 @@ a {
 //     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Добавляем тень */
 // }
 
-// // Стили для заголовков таблицы
+// Стили для заголовков таблицы V2
+
+/* Общие стили для таблицы */
+table {
+    width: 100%; /* Таблица занимает всю ширину контейнера */
+    border-collapse: separate; /* Используем "separate" для поддержания скругленных углов */
+    border-spacing: 0; /* Убираем промежутки между ячейками */
+    border-radius: 10px; /* Скругление углов таблицы */
+    overflow: hidden; /* Скрываем элементы, выходящие за рамки (важно для скругления углов) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Добавляем легкую тень для визуального улучшения */
+    margin: 20px 0; /* Добавляем отступ сверху и снизу */
+}
+
+/* Заголовок таблицы */
+thead {
+    background-color: var(--nord3); /* Цвет фона заголовка */
+    color: var(--nord6); /* Цвет текста заголовка */
+    font-weight: bold;
+}
+
+/* Стили для ячеек заголовка */
+th {
+    padding: 12px 16px; /* Отступы в ячейках заголовка */
+    text-align: left; /* Текст в заголовке выровнен по левому краю */
+}
+
+/* Стили для строк тела таблицы */
+tbody tr {
+    background-color: var(--nord1); /* Фон для четных строк */
+    transition: background-color 0.3s ease; /* Плавный переход при наведении */
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--nord2); /* Фон для нечетных строк */
+}
+
+tbody tr:hover {
+    background-color: var(--nord4); /* Цвет строки при наведении */
+}
+
+/* Стили для ячеек */
+td {
+    padding: 12px 16px; /* Отступы в ячейках тела таблицы */
+    border-bottom: 1px solid var(--nord3); /* Граница между строками */
+    text-align: left; /* Текст в ячейках выровнен по левому краю */
+}
+
+/* Убираем нижнюю границу у последней строки */
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+// // Стили для заголовков таблицы V0
+
 // thead {
 //     background-color: var(--frost1); /* Цвет фона заголовка */
 //     color: var(--light3); /* Цвет текста заголовка */
@@ -464,46 +517,51 @@ a {
 
 // Стили для таблиц
 /* Таблицы в светлой теме */
-body.light table {
-    border: 1px solid var(--border-color) !important;
-    border-collapse: collapse;
-}
 
-body.light thead {
-    border-bottom: 2px solid var(--border-color) !important;
-}
+// V1
 
-body.light th {
-    font-weight: 600 !important;
-    border: 1px solid var(--border-color) !important;
-}
+// body.light table {
+//     border: 1px solid var(--border-color) !important;
+//     border-collapse: collapse;
+// }
 
-body.light td {
-    border-left: 1px solid var(--border-color) !important;
-    border-right: 1px solid var(--border-color) !important;
-    border-bottom: 1px solid var(--border-color) !important;
-}
+// body.light thead {
+//     border-bottom: 2px solid var(--border-color) !important;
+// }
 
-/* Таблицы в темной теме */
-body.dark table {
-    border: 1px solid var(--border-color) !important;
-    border-collapse: collapse;
-}
+// body.light th {
+//     font-weight: 600 !important;
+//     border: 1px solid var(--border-color) !important;
+// }
 
-body.dark thead {
-    border-bottom: 2px solid var(--border-color) !important;
-}
+// body.light td {
+//     border-left: 1px solid var(--border-color) !important;
+//     border-right: 1px solid var(--border-color) !important;
+//     border-bottom: 1px solid var(--border-color) !important;
+// }
 
-body.dark th {
-    font-weight: 600 !important;
-    border: 1px solid var(--border-color) !important;
-}
+// /* Таблицы в темной теме */
+// body.dark table {
+//     border: 1px solid var(--border-color) !important;
+//     border-collapse: collapse;
+// }
 
-body.dark td {
-    border-left: 1px solid var(--border-color) !important;
-    border-right: 1px solid var(--border-color) !important;
-    border-bottom: 1px solid var(--border-color) !important;
-}
+// body.dark thead {
+//     border-bottom: 2px solid var(--border-color) !important;
+// }
+
+// body.dark th {
+//     font-weight: 600 !important;
+//     border: 1px solid var(--border-color) !important;
+// }
+
+// body.dark td {
+//     border-left: 1px solid var(--border-color) !important;
+//     border-right: 1px solid var(--border-color) !important;
+//     border-bottom: 1px solid var(--border-color) !important;
+// }
+
+// Standart
 
 //  table {
 //     border: 1px solid var(--border-color) !important;
