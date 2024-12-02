@@ -96,7 +96,7 @@ const config: QuartzConfig = {
           light: "github-light",
           dark: "github-dark",
         },
-        keepBackground: true,
+        keepBackground: false,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
