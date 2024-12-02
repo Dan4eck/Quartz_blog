@@ -1,6 +1,6 @@
 @use "./base.scss";
-@use "./themes/_obsidian-nord.scss";
-// @use "./themes/obsidian-nord/theme.css";
+// @use "./themes/_obsidian-nord.scss";
+@use "./themes/obsidian-nord/theme.css";
 
 // put your custom CSS here!
 // @use "./themes";
@@ -97,7 +97,7 @@
 
 // NEW
 
-Основные переменные Nord (если не подтягиваются из _obsidian-nord.scss)
+// Основные переменные Nord (если не подтягиваются из _obsidian-nord.scss)
 :root {
   --nord0: #2e3440;
   --nord1: #3b4252;
