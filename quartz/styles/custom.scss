@@ -81,41 +81,41 @@ a {
   }
 }
 
-// Инлайновый код (<code>)
-code {
-  background-color: var(--code-background);
-  color: var(--code-normal);
-  padding: 0.1em 0.3em;
-  border-radius: 0.3em;
-}
+// // Инлайновый код (<code>)
+// code {
+//   background-color: var(--code-background);
+//   color: var(--code-normal);
+//   padding: 0.1em 0.3em;
+//   border-radius: 0.3em;
+// }
 
-// Блоки кода (<pre>)
-pre {
-  background-color: var(--code-background);
-  color: var(--code-normal);
-  padding: 1em;
-  border-radius: 0.5em;
-  overflow-x: auto;
-}
+// // Блоки кода (<pre>)
+// pre {
+//   background-color: var(--code-background);
+//   color: var(--code-normal);
+//   padding: 1em;
+//   border-radius: 0.5em;
+//   overflow-x: auto;
+// }
 
-// Mermaid-specific styling
+// // Mermaid-specific styling
 
-// Общие стили для заметок
-.mermaid .note,
-.mermaid g.note rect {
-  fill: var(--nord8) !important; /* Бирюзовый для заметок */
-}
+// // Общие стили для заметок
+// .mermaid .note,
+// .mermaid g.note rect {
+//   fill: var(--nord8) !important; /* Бирюзовый для заметок */
+// }
 
-// Стили для линий циклов
-.mermaid .loopLine {
-  stroke: var(--nord7) !important; /* Мягкий бирюзовый для линий циклов */
-}
+// // Стили для линий циклов
+// .mermaid .loopLine {
+//   stroke: var(--nord7) !important; /* Мягкий бирюзовый для линий циклов */
+// }
 
-// Стили для меток сущностей
-.mermaid .entityLabel,
-.mermaid .entityLabel text {
-  fill: var(--nord15) !important; /* Светлый фиолетовый */
-}
+// // Стили для меток сущностей
+// .mermaid .entityLabel,
+// .mermaid .entityLabel text {
+//   fill: var(--nord15) !important; /* Светлый фиолетовый */
+// }
 
 
 
