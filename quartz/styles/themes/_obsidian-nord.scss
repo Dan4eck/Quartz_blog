@@ -463,25 +463,67 @@ a {
 // }
 
 // Стили для таблиц
- table {
+/* Таблицы в светлой теме */
+body.light table {
     border: 1px solid var(--border-color) !important;
     border-collapse: collapse;
 }
 
-thead {
+body.light thead {
     border-bottom: 2px solid var(--border-color) !important;
 }
 
-th {
+body.light th {
     font-weight: 600 !important;
     border: 1px solid var(--border-color) !important;
 }
 
-td {
+body.light td {
     border-left: 1px solid var(--border-color) !important;
     border-right: 1px solid var(--border-color) !important;
     border-bottom: 1px solid var(--border-color) !important;
 }
+
+/* Таблицы в темной теме */
+body.dark table {
+    border: 1px solid var(--border-color) !important;
+    border-collapse: collapse;
+}
+
+body.dark thead {
+    border-bottom: 2px solid var(--border-color) !important;
+}
+
+body.dark th {
+    font-weight: 600 !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+body.dark td {
+    border-left: 1px solid var(--border-color) !important;
+    border-right: 1px solid var(--border-color) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+//  table {
+//     border: 1px solid var(--border-color) !important;
+//     border-collapse: collapse;
+// }
+
+// thead {
+//     border-bottom: 2px solid var(--border-color) !important;
+// }
+
+// th {
+//     font-weight: 600 !important;
+//     border: 1px solid var(--border-color) !important;
+// }
+
+// td {
+//     border-left: 1px solid var(--border-color) !important;
+//     border-right: 1px solid var(--border-color) !important;
+//     border-bottom: 1px solid var(--border-color) !important;
+// }
 
 // Цвет фона строк таблицы
 .markdown-rendered tbody tr:nth-child(even) {
