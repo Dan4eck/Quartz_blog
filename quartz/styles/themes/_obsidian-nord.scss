@@ -312,9 +312,8 @@ body.dark {
     --background-secondary: var(--nord1);
     --text-normal: var(--nord4);
     --text-muted: var(--nord3);
-
-    // Фон блока кода и цвет текста в темной теме
-    // Стили для блоков кода в темной теме
+    
+// Стили для блоков кода в темной теме
 body.dark pre,
 body.dark code {
     background-color: var(--nord3) !important; /* Фон блока кода */
