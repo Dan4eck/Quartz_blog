@@ -1,4 +1,5 @@
 // Obsidian Nord Theme
+// Определение базовых цветов в стиле Obsidian Nord
 :root {
     --nord0: #2e3440;
     --nord1: #3b4252;
@@ -18,37 +19,197 @@
     --nord15: #b48ead;
 }
 
+// Основные стили темы для Quartz, базирующиеся на переменных Nord
 body {
+    // Фоновые цвета
     --background-primary: var(--nord0);
     --background-secondary: var(--nord1);
     --background-tertiary: var(--nord2);
-    
+
+    // Цвета текста
     --text-normal: var(--nord4);
     --text-muted: var(--nord3);
     --text-faint: var(--nord3);
-    
+
     --text-title: var(--nord6);
     --text-subtitle: var(--nord5);
-    
+
     --text-link: var(--nord8);
     --text-link-hover: var(--nord7);
-    
+
     --text-accent: var(--nord8);
     --interactive-accent: var(--nord8);
-    
+
+    // Цвета для кода
     --code-background: var(--nord1);
     --code-normal: var(--nord4);
-    
+
+    // Цвета тегов
     --tag-background: var(--nord2);
     --tag-color: var(--nord4);
-    
+
+    // Цвет границы
     --border-color: var(--nord2);
 }
 
-// Dark mode specific styles
+// Стили для темной темы
 body.dark {
     --background-primary: var(--nord0);
     --background-secondary: var(--nord1);
     --text-normal: var(--nord4);
     --text-muted: var(--nord3);
 }
+
+// Mermaid стили
+.mermaid {
+    .note {
+        fill: var(--nord8) !important; /* Используем фиолетовый или бирюзовый для заметок */
+    }
+
+    .loopLine {
+        stroke: var(--nord7) !important; /* Мягкий бирюзовый для линий циклов */
+    }
+
+    .entityLabel {
+        fill: var(--nord15) !important; /* Светлый фиолетовый */
+    }
+
+    .exclude-range {
+        fill: var(--nord2) !important; /* Используем темный цвет для "exclude" */
+    }
+
+    .sequenceNumber {
+        fill: var(--nord4) !important; /* Цвет для номеров последовательностей */
+    }
+}
+
+// Заголовки
+h1 {
+    color: var(--nord11); // Красноватый розовый для H1
+}
+
+h2 {
+    color: var(--nord13); // Светло-желтый для H2
+}
+
+h3 {
+    color: var(--nord14); // Светло-зеленый для H3
+}
+
+h4 {
+    color: var(--nord15); // Светлый фиолетовый для H4
+}
+
+h5 {
+    color: var(--nord9); // Синий для H5
+}
+
+h6 {
+    color: var(--nord10); // Средний синий для H6
+}
+
+// Жирный текст
+strong {
+    color: var(--nord13); // Желтый для жирного текста
+}
+
+// Курсив
+em {
+    color: var(--nord13); // Желтый для курсива
+}
+
+// Ссылки
+a {
+    color: var(--nord12); // Оранжевый для ссылок
+    &:hover {
+        color: var(--nord10); // Синий при наведении
+    }
+}
+
+// Стили для таблиц
+table {
+    border: 1px solid var(--border-color) !important;
+    border-collapse: collapse;
+}
+
+thead {
+    border-bottom: 2px solid var(--border-color) !important;
+}
+
+th {
+    font-weight: 600 !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+td {
+    border-left: 1px solid var(--border-color) !important;
+    border-right: 1px solid var(--border-color) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+// Цвет фона строк таблицы
+.markdown-rendered tbody tr:nth-child(even) {
+    background-color: var(--nord1) !important;
+}
+
+.markdown-rendered tbody tr:nth-child(odd) {
+    background-color: var(--nord2) !important;
+}
+
+.markdown-rendered tbody tr:hover {
+    background-color: var(--nord3) !important;
+}
+
+// :root {
+//     --nord0: #2e3440;
+//     --nord1: #3b4252;
+//     --nord2: #434c5e;
+//     --nord3: #4c566a;
+//     --nord4: #d8dee9;
+//     --nord5: #e5e9f0;
+//     --nord6: #eceff4;
+//     --nord7: #8fbcbb;
+//     --nord8: #88c0d0;
+//     --nord9: #81a1c1;
+//     --nord10: #5e81ac;
+//     --nord11: #bf616a;
+//     --nord12: #d08770;
+//     --nord13: #ebcb8b;
+//     --nord14: #a3be8c;
+//     --nord15: #b48ead;
+// }
+
+// body {
+//     --background-primary: var(--nord0);
+//     --background-secondary: var(--nord1);
+//     --background-tertiary: var(--nord2);
+    
+//     --text-normal: var(--nord4);
+//     --text-muted: var(--nord3);
+//     --text-faint: var(--nord3);
+    
+//     --text-title: var(--nord6);
+//     --text-subtitle: var(--nord5);
+    
+//     --text-link: var(--nord8);
+//     --text-link-hover: var(--nord7);
+    
+//     --text-accent: var(--nord8);
+//     --interactive-accent: var(--nord8);
+    
+//     --code-background: var(--nord1);
+//     --code-normal: var(--nord4);
+    
+//     --tag-background: var(--nord2);
+//     --tag-color: var(--nord4);
+    
+//     --border-color: var(--nord2);
+// }
+
+// // Dark mode specific styles
+// body.dark {
+//     --background-primary: var(--nord0);
+//     --background-secondary: var(--nord1);
+//     --text-normal: var(--nord4);
+//     --text-muted: var(--nord3);
+// }
