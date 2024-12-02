@@ -314,8 +314,13 @@ body.dark {
     --text-muted: var(--nord3);
 
     // Фон блока кода и цвет текста в темной теме
-    --code-background: var(--nord3);
-    --code-normal: var(--nord8);
+    // Стили для блоков кода в темной теме
+body.dark pre,
+body.dark code {
+    background-color: var(--nord3) !important; /* Фон блока кода */
+    color: var(--nord8) !important; /* Цвет текста кода */
+    // --code-background: var(--nord3);
+    // --code-normal: var(--nord8);
 }
 
 // Mermaid стили
