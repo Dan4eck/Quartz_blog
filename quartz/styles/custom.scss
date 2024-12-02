@@ -1,11 +1,11 @@
 @use "./base.scss";
-// // @use "./themes/_obsidian-nord.scss";
-@use "./themes/obsidian-nord/theme.css";
+@use "./themes/_obsidian-nord.scss";
+// @use "./themes/obsidian-nord/theme.css";
 
-// // put your custom CSS here!
-// // @use "./themes";
+// put your custom CSS here!
+// @use "./themes";
 
-// // Custom styles using Nord palette
+// Custom styles using Nord palette
 :root {
   --nord0: #2e3440; /* Темный серо-синий (Dark Grayish Blue) */
   --nord1: #3b4252; /* Очень темный серо-синий (Very Dark Grayish Blue) */
@@ -81,8 +81,6 @@ a {
   }
 }
 
-// ---
-
 // Инлайновый код (<code>)
 code {
   background-color: var(--code-background);
@@ -91,33 +89,33 @@ code {
   border-radius: 0.3em;
 }
 
-// // Блоки кода (<pre>)
-// pre {
-//   background-color: var(--code-background);
-//   color: var(--code-normal);
-//   padding: 1em;
-//   border-radius: 0.5em;
-//   overflow-x: auto;
-// }
+// Блоки кода (<pre>)
+pre {
+  background-color: var(--code-background);
+  color: var(--code-normal);
+  padding: 1em;
+  border-radius: 0.5em;
+  overflow-x: auto;
+}
 
-// // Mermaid-specific styling
+// Mermaid-specific styling
 
-// // Общие стили для заметок
-// .mermaid .note,
-// .mermaid g.note rect {
-//   fill: var(--nord8) !important; /* Бирюзовый для заметок */
-// }
+// Общие стили для заметок
+.mermaid .note,
+.mermaid g.note rect {
+  fill: var(--nord8) !important; /* Бирюзовый для заметок */
+}
 
-// // Стили для линий циклов
-// .mermaid .loopLine {
-//   stroke: var(--nord7) !important; /* Мягкий бирюзовый для линий циклов */
-// }
+// Стили для линий циклов
+.mermaid .loopLine {
+  stroke: var(--nord7) !important; /* Мягкий бирюзовый для линий циклов */
+}
 
-// // Стили для меток сущностей
-// .mermaid .entityLabel,
-// .mermaid .entityLabel text {
-//   fill: var(--nord15) !important; /* Светлый фиолетовый */
-// }
+// Стили для меток сущностей
+.mermaid .entityLabel,
+.mermaid .entityLabel text {
+  fill: var(--nord15) !important; /* Светлый фиолетовый */
+}
 
 
 
