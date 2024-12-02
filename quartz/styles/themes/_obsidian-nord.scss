@@ -416,13 +416,10 @@ table {
     border-radius: 8px; /* Слегка уменьшим скругление для компактности */
     overflow: hidden;
     margin: 15px 0; /* Более компактные отступы */
-}
-
-/* Светлая тема */
-body.light table {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легкая тень для объёма */
 }
 
+/* Светлая тема */
 body.light thead {
     background-color: var(--nord4); /* Светлый цвет для заголовка */
     color: var(--nord0); /* Тёмный цвет текста заголовка */
@@ -442,10 +439,6 @@ body.light tbody tr:hover {
 }
 
 /* Темная тема */
-body.dark table {
-    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Легкая тень для объёма */
-}
-
 body.dark thead {
     background-color: var(--nord2); /* Тёмный цвет для заголовка */
     color: var(--nord6); /* Светлый цвет текста заголовка */
@@ -468,11 +461,18 @@ body.dark tbody tr:hover {
 th, td {
     padding: 8px 12px; /* Уменьшенные отступы для компактности */
     text-align: left;
+    border-right: 1px solid var(--nord3); /* Добавляем вертикальные линии */
+}
+
+/* Убираем правую границу у последней ячейки строки */
+th:last-child, td:last-child {
+    border-right: none;
 }
 
 /* Стили для заголовков таблицы */
 th {
     font-weight: 600; /* Более жирный текст для заголовков */
+    border-bottom: 2px solid var(--nord3); /* Подчеркивание для заголовков */
 }
 
 /* Стили для ячеек таблицы */
