@@ -443,11 +443,11 @@ body.light tbody tr:nth-child(odd) {
 
 /* Темная тема */
 body.dark tbody tr:nth-child(even) {
-    background-color: var(--nord1); /* Цвет для чётных строк в темной теме */
+    background-color: var(--nord1) !important; /* Цвет для чётных строк в темной теме */
 }
 
 body.dark tbody tr:nth-child(odd) {
-    background-color: var(--nord2); /* Цвет для нечётных строк в темной теме */
+    background-color: var(--nord2) !important; /* Цвет для нечётных строк в темной теме */
 }
 
 
