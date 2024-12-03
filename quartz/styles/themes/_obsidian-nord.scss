@@ -801,18 +801,18 @@ td {
 //     border-bottom: 1px solid var(--border-color) !important;
 // }
 
-// Цвет фона строк таблицы
-.markdown-rendered tbody tr:nth-child(even) {
-    background-color: var(--nord1) !important;
-}
+// // Цвет фона строк таблицы
+// .markdown-rendered tbody tr:nth-child(even) {
+//     background-color: var(--nord1) !important;
+// }
 
-.markdown-rendered tbody tr:nth-child(odd) {
-    background-color: var(--nord2) !important;
-}
+// .markdown-rendered tbody tr:nth-child(odd) {
+//     background-color: var(--nord2) !important;
+// }
 
-.markdown-rendered tbody tr:hover {
-    background-color: var(--nord3) !important;
-}
+// .markdown-rendered tbody tr:hover {
+//     background-color: var(--nord3) !important;
+// }
 
 
 // Old 
