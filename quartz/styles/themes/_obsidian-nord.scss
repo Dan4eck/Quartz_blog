@@ -431,6 +431,13 @@ td {
     border-right: 1px solid var(--border-color) !important;
     border-bottom: 1px solid var(--border-color) !important;
 }
+tbody tr:nth-child(even) {
+    background-color: var(--nord5); /* Цвет для чётных строк */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--nord6); /* Цвет для нечётных строк */
+}
 
 // Стили для заголовков таблицы V2
 
