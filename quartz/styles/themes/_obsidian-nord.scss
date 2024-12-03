@@ -432,22 +432,8 @@ td {
     border-bottom: 1px solid var(--border-color) !important;
 }
 
-/* Светлая тема */
-body.light tbody tr:nth-child(even) {
-    background-color: var(--nord5); /* Цвет для чётных строк в светлой теме */
-}
-
-body.light tbody tr:nth-child(odd) {
-    background-color: var(--nord6); /* Цвет для нечётных строк в светлой теме */
-}
-
-/* Темная тема */
-body.dark tbody tr:nth-child(even) {
-    background-color: var(--nord1) !important; /* Цвет для чётных строк в темной теме */
-}
-
-body.dark tbody tr:nth-child(odd) {
-    background-color: var(--nord2) !important; /* Цвет для нечётных строк в темной теме */
+tbody tr:nth-child(even) {
+    background-color: var(--nord5); /* Цвет для чётных строк */
 }
 
 
