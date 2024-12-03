@@ -408,16 +408,14 @@ a {
 //     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Добавляем тень */
 // }
 
-// Стили для заголовков таблицы Standart V2
+// ---
 
  table {
     font-size: 12px; /* Размер шрифта для текста в таблице */
-    width: 100%; /* Таблица занимает всю ширину контейнера */
-    max-width: 100%; /* Ограничение максимальной ширины таблицы */
-    border: 2px solid var(--border-color); /* Основная рамка для таблицы */
-    border-collapse: collapse; /* Объединяем границы ячеек */
-    box-sizing: border-box; /* Корректный расчет ширины */
+    border: 3px solid var(--border-color) !important;
+    border-collapse: collapse;
     table-layout: fixed; /* Фиксированная ширина ячеек, чтобы избежать переполнения */
+    // box-sizing: border-box; /* Корректный расчет ширины */
 }
 
 thead {
@@ -425,24 +423,60 @@ thead {
 }
 
 th {
-    font-weight: 600;
-    padding: 4px 8px; /* Уменьшенные отступы */
+    font-weight: 600 !important;
+    border: 1px solid var(--border-color) !important;
     line-height: 1.5; /* Межстрочный интервал */
-    border-right: 1px solid var(--border-color); /* Вертикальные линии между заголовками */
-    text-align: left; /* Выравнивание текста в заголовках */
-    overflow: hidden; /* Скрытие переполнения */
-    word-wrap: break-word; /* Перенос слов для предотвращения переполнения */
-}
-
-td {
-    padding: 4px 8px; /* Уменьшенные отступы для компактности */
-    line-height: 1.5; /* Межстрочный интервал */
-    border-right: 1px solid var(--border-color); /* Вертикальные линии между ячейками */
-    border-bottom: 1px solid var(--border-color); /* Горизонтальные линии между строками */
-    overflow: hidden; /* Скрытие переполнения */
+    text-align:center ; /* Выравнивание текста в заголовках */
     word-wrap: break-word; /* Перенос слов, чтобы не выходить за пределы ячеек */
     text-align: left; /* Выравнивание текста в ячейках */
 }
+
+td {
+    border-left: 1px solid var(--border-color) !important;
+    line-height: 1.5; /* Межстрочный интервал */
+    border-right: 1px solid var(--border-color) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+    word-wrap: break-word; /* Перенос слов, чтобы не выходить за пределы ячеек */
+    text-align: left; /* Выравнивание текста в ячейках */
+}
+
+// ---
+
+// Стили для заголовков таблицы Standart V2
+
+//  table {
+//     font-size: 12px; /* Размер шрифта для текста в таблице */
+//     width: 100%; /* Таблица занимает всю ширину контейнера */
+//     max-width: 100%; /* Ограничение максимальной ширины таблицы */
+//     border: 2px solid var(--border-color); /* Основная рамка для таблицы */
+//     border-collapse: collapse; /* Объединяем границы ячеек */
+//     box-sizing: border-box; /* Корректный расчет ширины */
+//     table-layout: fixed; /* Фиксированная ширина ячеек, чтобы избежать переполнения */
+// }
+
+// thead {
+//     border-bottom: 2px solid var(--border-color) !important;
+// }
+
+// th {
+//     font-weight: 600;
+//     padding: 4px 8px; /* Уменьшенные отступы */
+//     line-height: 1.5; /* Межстрочный интервал */
+//     border-right: 1px solid var(--border-color); /* Вертикальные линии между заголовками */
+//     text-align: left; /* Выравнивание текста в заголовках */
+//     overflow: hidden; /* Скрытие переполнения */
+//     word-wrap: break-word; /* Перенос слов для предотвращения переполнения */
+// }
+
+// td {
+//     padding: 4px 8px; /* Уменьшенные отступы для компактности */
+//     line-height: 1.5; /* Межстрочный интервал */
+//     border-right: 1px solid var(--border-color); /* Вертикальные линии между ячейками */
+//     border-bottom: 1px solid var(--border-color); /* Горизонтальные линии между строками */
+//     overflow: hidden; /* Скрытие переполнения */
+//     word-wrap: break-word; /* Перенос слов, чтобы не выходить за пределы ячеек */
+//     text-align: left; /* Выравнивание текста в ячейках */
+// }
 
 // tbody tr:nth-child(even) {
 //     background-color: var(--nord15); /* Цвет для чётных строк */
