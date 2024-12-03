@@ -409,6 +409,7 @@ a {
 // Стили для заголовков таблицы Standart V2
 
 /* Таблица */
+/* Таблица */
 table {
     font-size: 10px; /* Размер шрифта для всего текста в таблице */
     border-left: 1px solid var(--border-color) !important;
@@ -429,6 +430,8 @@ thead {
 th {
     font-weight: 600 !important;
     border: 1px solid var(--border-color) !important;
+    padding: 4px 6px; /* Уменьшаем отступы внутри ячеек заголовка */
+    line-height: 1.2; /* Плотный межстрочный интервал */
 }
 
 /* Ячейки таблицы */
@@ -436,6 +439,8 @@ td {
     border-left: 1px solid var(--border-color) !important;
     border-right: 1px solid var(--border-color) !important;
     border-bottom: 1px solid var(--border-color) !important;
+    padding: 4px 6px; /* Уменьшаем отступы внутри ячеек данных */
+    line-height: 1.2; /* Плотный межстрочный интервал */
 }
 
 /* Скругленные углы таблицы */
@@ -454,6 +459,7 @@ tbody tr:last-child td:first-child {
 tbody tr:last-child td:last-child {
     border-bottom-right-radius: 10px; /* Скругление правого нижнего угла */
 }
+
 
 
 // Стили для заголовков таблицы Standart V1
