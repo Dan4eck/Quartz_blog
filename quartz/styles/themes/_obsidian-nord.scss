@@ -432,13 +432,13 @@ td {
     border-bottom: 1px solid var(--border-color) !important;
 }
 
-tbody tr:nth-child(even) {
-    background-color: var(--nord15); /* Цвет для чётных строк */
-}
+// tbody tr:nth-child(even) {
+//     background-color: var(--nord15); /* Цвет для чётных строк */
+// }
 
-tbody tr:nth-child(odd) {
-    background-color: var(--nord14); /* Цвет для нечётных строк */
-}
+// tbody tr:nth-child(odd) {
+//     background-color: var(--nord14); /* Цвет для нечётных строк */
+// }
 
 
 // Стили для заголовков таблицы V2
