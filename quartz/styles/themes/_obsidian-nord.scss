@@ -410,6 +410,7 @@ a {
 
 // ---
 
+
  table {
     font-size: 12px; /* Размер шрифта для текста в таблице */
     border: 3px solid var(--border-color) !important;
@@ -428,7 +429,7 @@ th {
     line-height: 1.5; /* Межстрочный интервал */
     text-align:center ; /* Выравнивание текста в заголовках */
     word-wrap: break-word; /* Перенос слов, чтобы не выходить за пределы ячеек */
-    text-align: left; /* Выравнивание текста в ячейках */
+    text-align: center; /* Выравнивание текста в ячейках */
 }
 
 td {
@@ -437,7 +438,7 @@ td {
     border-right: 1px solid var(--border-color) !important;
     border-bottom: 1px solid var(--border-color) !important;
     word-wrap: break-word; /* Перенос слов, чтобы не выходить за пределы ячеек */
-    text-align: left; /* Выравнивание текста в ячейках */
+    text-align: center; /* Выравнивание текста в ячейках */
 }
 
 // ---
