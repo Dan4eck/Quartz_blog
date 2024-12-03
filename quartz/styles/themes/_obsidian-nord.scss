@@ -417,6 +417,7 @@ a {
     border-collapse: collapse;
     table-layout: fixed; /* Фиксированная ширина ячеек, чтобы избежать переполнения */
     box-sizing: border-box; /* Корректный расчет ширины */
+    table-layout: fixed; /* Фиксированная ширина ячеек, чтобы избежать переполнения */
 }
 
 thead {
