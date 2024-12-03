@@ -438,7 +438,7 @@ td {
     border-right: 1px solid var(--border-color) !important;
     border-bottom: 1px solid var(--border-color) !important;
     word-wrap: break-word; /* Перенос слов, чтобы не выходить за пределы ячеек */
-    text-align: center; /* Выравнивание текста в ячейках */
+    text-align: left; /* Выравнивание текста в ячейках */
 }
 
 // ---
