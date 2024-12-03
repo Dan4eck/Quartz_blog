@@ -408,34 +408,22 @@ a {
 
 // Стили для заголовков таблицы Standart V2
 
-/* Таблица */
-/* Таблица */
-/* Таблица */
-/* Таблица */
+/* Основные стили для таблицы */
 table {
-    font-size: 12px; /* Размер шрифта для всего текста в таблице */
+    font-size: 12px; /* Размер шрифта для текста в таблице */
     width: 100%; /* Таблица занимает всю ширину контейнера */
     max-width: 100%; /* Ограничение максимальной ширины таблицы */
     border: 2px solid var(--border-color); /* Основная рамка для таблицы */
-    border-collapse: separate; /* Поддерживаем скругление углов */
-    border-spacing: 0; /* Без промежутков между ячейками */
-    border-radius: 0px; /* Скругленные углы таблицы */
-    overflow: hidden; /* Скрываем выход за границы таблицы */
-    box-sizing: border-box; /* Корректное расчет ширины, включая отступы и границы */
-}
-
-/* Заголовок таблицы */
-thead {
-    border-bottom: 2px solid var(--border-color) !important; /* Линия, отделяющая заголовок от тела таблицы */
+    border-collapse: collapse; /* Объединяем границы ячеек */
+    box-sizing: border-box; /* Корректный расчет ширины */
 }
 
 /* Заголовки столбцов */
 th {
-    font-weight: 600 !important;
-    padding: 6px 10px; /* Уменьшенные отступы */
-    line-height: 1.5; /* Плотный межстрочный интервал */
+    font-weight: 600;
+    padding: 4px 8px; /* Уменьшенные отступы */
+    line-height: 1.5; /* Межстрочный интервал */
     border-right: 1px solid var(--border-color); /* Вертикальные линии между заголовками */
-    box-sizing: border-box; /* Корректное расчет ширины */
 }
 
 /* Убираем правую границу у последней ячейки заголовка */
@@ -445,11 +433,10 @@ thead th:last-child {
 
 /* Ячейки таблицы */
 td {
-    padding: 6px 10px; /* Уменьшенные отступы внутри ячеек данных */
-    line-height: 1.5; /* Плотный межстрочный интервал */
+    padding: 4px 8px; /* Уменьшенные отступы для компактности */
+    line-height: 1.5; /* Межстрочный интервал */
     border-right: 1px solid var(--border-color); /* Вертикальные линии между ячейками */
     border-bottom: 1px solid var(--border-color); /* Горизонтальные линии между строками */
-    box-sizing: border-box; /* Корректное расчет ширины */
 }
 
 /* Убираем правую границу у последней ячейки строки */
@@ -457,22 +444,12 @@ tbody tr td:last-child {
     border-right: none;
 }
 
-/* Скругленные углы таблицы */
-thead th:first-child {
-    border-top-left-radius: 10px; /* Скругление левого верхнего угла */
+/* Родительский контейнер */
+.table-container {
+    width: 100%;
+    overflow-x: auto; /* Добавляет горизонтальную прокрутку только при необходимости */
 }
 
-thead th:last-child {
-    border-top-right-radius: 10px; /* Скругление правого верхнего угла */
-}
-
-tbody tr:last-child td:first-child {
-    border-bottom-left-radius: 10px; /* Скругление левого нижнего угла */
-}
-
-tbody tr:last-child td:last-child {
-    border-bottom-right-radius: 10px; /* Скругление правого нижнего угла */
-}
 
 
 
