@@ -413,7 +413,7 @@ a {
 
  table {
     font-size: 12px; /* Размер шрифта для текста в таблице */
-    width: 100%; /* Таблица занимает всю ширину контейнера */
+    // width: 100%; /* Таблица занимает всю ширину контейнера */
     // max-width: 100%; /* Ограничение максимальной ширины таблицы */
     border: 3px solid var(--border-color) !important;
     border-collapse: collapse;
