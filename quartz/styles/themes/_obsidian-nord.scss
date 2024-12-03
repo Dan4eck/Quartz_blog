@@ -415,7 +415,7 @@ a {
     border: 3px solid var(--border-color) !important;
     border-collapse: collapse;
     table-layout: fixed; /* Фиксированная ширина ячеек, чтобы избежать переполнения */
-    // box-sizing: border-box; /* Корректный расчет ширины */
+    box-sizing: border-box; /* Корректный расчет ширины */
 }
 
 thead {
