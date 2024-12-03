@@ -409,13 +409,23 @@ a {
 // }
 
 // ---
+// .table-container {
+//     width: 100%; /* Занимаем всю ширину контейнера */
+//     overflow-x: hidden; /* Скрываем горизонтальную прокрутку */
+//     margin: 0 auto; /* Центрируем контейнер */
+//     padding: 0; /* Убираем возможные внутренние отступы */
+//     box-sizing: border-box; /* Корректный расчет ширины */
+//     text-align: center; /* Центрируем содержимое */
+// }
+
 .table-container {
-    width: 100%; /* Занимаем всю ширину контейнера */
-    overflow-x: hidden; /* Скрываем горизонтальную прокрутку */
-    margin: 0 auto; /* Центрируем контейнер */
-    padding: 0; /* Убираем возможные внутренние отступы */
-    box-sizing: border-box; /* Корректный расчет ширины */
-    text-align: center; /* Центрируем содержимое */
+    display: flex;
+    justify-content: center; /* Центрирует таблицу в контейнере */
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
  table {
