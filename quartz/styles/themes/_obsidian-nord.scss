@@ -408,30 +408,28 @@ a {
 
 // Стили для заголовков таблицы Standart V2
 
-/* Таблица */
-/* Таблица */
-/* Таблица */
-/* Таблица */
+/* Основные стили для таблицы */
 table {
-    font-size: 12px; /* Размер шрифта для всего текста в таблице */
+    font-size: 10px; /* Размер шрифта для всего текста в таблице */
     width: 100%; /* Таблица занимает всю ширину контейнера */
-    border: 2px solid var(--border-color); /* Основная рамка для таблицы */
     border-collapse: separate; /* Поддерживаем скругление углов */
     border-spacing: 0; /* Без промежутков между ячейками */
+    border: 2px solid var(--border-color); /* Общая рамка для всей таблицы */
     border-radius: 10px; /* Скругленные углы таблицы */
     overflow: hidden; /* Скрываем выход за границы таблицы */
 }
 
 /* Заголовок таблицы */
 thead {
-    border-bottom: 2px solid var(--border-color) !important; /* Линия, отделяющая заголовок от тела таблицы */
+    background-color: var(--nord3); /* Задний фон для заголовка для улучшения видимости */
+    border-bottom: 2px solid var(--border-color); /* Линия, отделяющая заголовок от тела таблицы */
 }
 
 /* Заголовки столбцов */
 th {
-    font-weight: 600 !important;
-    padding: 6px 10px; /* Уменьшенные отступы */
-    line-height: 1.5; /* Плотный межстрочный интервал */
+    font-weight: 600;
+    padding: 6px 10px; /* Уменьшенные отступы для компактного вида */
+    line-height: 1.2; /* Плотный межстрочный интервал */
     border-right: 1px solid var(--border-color); /* Вертикальные линии между заголовками */
 }
 
@@ -442,8 +440,8 @@ thead th:last-child {
 
 /* Ячейки таблицы */
 td {
-    padding: 6px 10px; /* Уменьшенные отступы внутри ячеек данных */
-    line-height: 1.5; /* Плотный межстрочный интервал */
+    padding: 6px 10px; /* Уменьшенные отступы для компактности */
+    line-height: 1.2; /* Плотный межстрочный интервал */
     border-right: 1px solid var(--border-color); /* Вертикальные линии между ячейками */
     border-bottom: 1px solid var(--border-color); /* Горизонтальные линии между строками */
 }
@@ -469,6 +467,7 @@ tbody tr:last-child td:first-child {
 tbody tr:last-child td:last-child {
     border-bottom-right-radius: 10px; /* Скругление правого нижнего угла */
 }
+
 
 
 
