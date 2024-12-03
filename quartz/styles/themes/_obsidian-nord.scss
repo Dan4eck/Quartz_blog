@@ -394,6 +394,8 @@ a {
     }
 }
 
+
+
 // // Стили для таблиц
 // table {
 //     width: 100%; /* Устанавливает ширину таблицы на 100% */
@@ -404,6 +406,50 @@ a {
 //     border-radius: 8px; /* Закругленные углы таблицы */
 //     overflow: hidden; /* Убирает углы рамки, чтобы не выходили за границы таблицы */
 //     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Добавляем тень */
+// }
+
+// Стили для заголовков таблицы Standart V2
+
+ table {
+    font-size: 12px; /* Размер шрифта для текста в таблице */
+    width: 100%; /* Таблица занимает всю ширину контейнера */
+    max-width: 100%; /* Ограничение максимальной ширины таблицы */
+    border: 2px solid var(--border-color); /* Основная рамка для таблицы */
+    border-collapse: collapse; /* Объединяем границы ячеек */
+    box-sizing: border-box; /* Корректный расчет ширины */
+    table-layout: fixed; /* Фиксированная ширина ячеек, чтобы избежать переполнения */
+}
+
+thead {
+    border-bottom: 2px solid var(--border-color) !important;
+}
+
+th {
+    font-weight: 600;
+    padding: 4px 8px; /* Уменьшенные отступы */
+    line-height: 1.5; /* Межстрочный интервал */
+    border-right: 1px solid var(--border-color); /* Вертикальные линии между заголовками */
+    text-align: left; /* Выравнивание текста в заголовках */
+    overflow: hidden; /* Скрытие переполнения */
+    word-wrap: break-word; /* Перенос слов для предотвращения переполнения */
+}
+
+td {
+    padding: 4px 8px; /* Уменьшенные отступы для компактности */
+    line-height: 1.5; /* Межстрочный интервал */
+    border-right: 1px solid var(--border-color); /* Вертикальные линии между ячейками */
+    border-bottom: 1px solid var(--border-color); /* Горизонтальные линии между строками */
+    overflow: hidden; /* Скрытие переполнения */
+    word-wrap: break-word; /* Перенос слов, чтобы не выходить за пределы ячеек */
+    text-align: left; /* Выравнивание текста в ячейках */
+}
+
+// tbody tr:nth-child(even) {
+//     background-color: var(--nord15); /* Цвет для чётных строк */
+// }
+
+// tbody tr:nth-child(odd) {
+//     background-color: var(--nord14); /* Цвет для нечётных строк */
 // }
 
 // Стили для заголовков таблицы Standart V2
