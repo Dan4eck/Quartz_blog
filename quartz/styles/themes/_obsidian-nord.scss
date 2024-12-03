@@ -409,12 +409,15 @@ a {
 // Стили для заголовков таблицы Standart V1
 
  table {
-    border: 1px solid var(--border-color) !important;
-    width: 100%;
-    border-collapse: separate; /* Поддерживаем скругленные углы */
-    border-spacing: 0;
-    border-radius: 10px; /* Скругление для компактности */
-    overflow: hidden;
+    border-left: 1px solid var(--border-color) !important;
+    border-right: 1px solid var(--border-color) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+    // border: 1px solid var(--border-color) !important;
+    // width: 100%;
+    // border-collapse: separate; /* Поддерживаем скругленные углы */
+    // border-spacing: 0;
+    // border-radius: 10px; /* Скругление для компактности */
+    // overflow: hidden;
 }
 
 thead {
