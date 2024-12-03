@@ -406,85 +406,111 @@ a {
 //     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Добавляем тень */
 // }
 
-// Стили для заголовков таблицы V2
+// Стили для заголовков таблицы Standart V1
 
-/* Общие стили для таблицы в обоих темах */
-table {
+ table {
+    border: 1px solid var(--border-color) !important;
     width: 100%;
     border-collapse: separate; /* Поддерживаем скругленные углы */
     border-spacing: 0;
-    border-radius: 6px; /* Ещё меньшее скругление для компактности */
+    border-radius: 10px; /* Скругление для компактности */
     overflow: hidden;
-    margin: 10px 0; /* Уменьшенные отступы сверху и снизу */
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Очень легкая тень для объёма */
 }
 
-/* Светлая тема */
-body.light thead {
-    background-color: var(--nord4); /* Светлый цвет для заголовка */
-    color: var(--nord0); /* Тёмный цвет текста заголовка */
+thead {
+    border-bottom: 2px solid var(--border-color) !important;
 }
 
-body.light tbody tr {
-    background-color: var(--nord6); /* Светлый фон для строк */
-    transition: background-color 0.3s ease;
-}
-
-body.light tbody tr:nth-child(even) {
-    background-color: var(--nord5); /* Чередование цвета строк */
-}
-
-body.light tbody tr:hover {
-    background-color: var(--nord4); /* Цвет строки при наведении */
-}
-
-/* Темная тема */
-body.dark thead {
-    background-color: var(--nord2); /* Тёмный цвет для заголовка */
-    color: var(--nord6); /* Светлый цвет текста заголовка */
-}
-
-body.dark tbody tr {
-    background-color: var(--nord0); /* Тёмный фон для строк */
-    transition: background-color 0.3s ease;
-}
-
-body.dark tbody tr:nth-child(even) {
-    background-color: var(--nord1); /* Чередование цвета строк */
-}
-
-body.dark tbody tr:hover {
-    background-color: var(--nord3); /* Цвет строки при наведении */
-}
-
-/* Общие стили для заголовков и ячеек */
-th, td {
-    padding: 4px 8px; /* Очень маленькие отступы для компактности */
-    text-align: left;
-    border-right: 1px solid var(--nord3); /* Добавляем вертикальные линии */
-}
-
-/* Убираем правую границу у последней ячейки строки */
-th:last-child, td:last-child {
-    border-right: none;
-}
-
-/* Стили для заголовков таблицы */
 th {
-    font-weight: 600; /* Более жирный текст для заголовков */
-    border-bottom: 2px solid var(--nord3); /* Подчеркивание для заголовков */
-    padding: 6px 10px; /* Немного больше отступов для заголовков */
+    font-weight: 600 !important;
+    border: 1px solid var(--border-color) !important;
 }
 
-/* Стили для ячеек таблицы */
 td {
-    border-bottom: 1px solid var(--nord3); /* Легкая граница между строками */
+    border-left: 1px solid var(--border-color) !important;
+    border-right: 1px solid var(--border-color) !important;
+    border-bottom: 1px solid var(--border-color) !important;
 }
 
-/* Убираем нижнюю границу у последней строки */
-tbody tr:last-child td {
-    border-bottom: none;
-}
+// Стили для заголовков таблицы V2
+
+// /* Общие стили для таблицы в обоих темах */
+// table {
+//     width: 100%;
+//     border-collapse: separate; /* Поддерживаем скругленные углы */
+//     border-spacing: 0;
+//     border-radius: 6px; /* Ещё меньшее скругление для компактности */
+//     overflow: hidden;
+//     margin: 10px 0; /* Уменьшенные отступы сверху и снизу */
+//     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Очень легкая тень для объёма */
+// }
+
+// /* Светлая тема */
+// body.light thead {
+//     background-color: var(--nord4); /* Светлый цвет для заголовка */
+//     color: var(--nord0); /* Тёмный цвет текста заголовка */
+// }
+
+// body.light tbody tr {
+//     background-color: var(--nord6); /* Светлый фон для строк */
+//     transition: background-color 0.3s ease;
+// }
+
+// body.light tbody tr:nth-child(even) {
+//     background-color: var(--nord5); /* Чередование цвета строк */
+// }
+
+// body.light tbody tr:hover {
+//     background-color: var(--nord4); /* Цвет строки при наведении */
+// }
+
+// /* Темная тема */
+// body.dark thead {
+//     background-color: var(--nord2); /* Тёмный цвет для заголовка */
+//     color: var(--nord6); /* Светлый цвет текста заголовка */
+// }
+
+// body.dark tbody tr {
+//     background-color: var(--nord0); /* Тёмный фон для строк */
+//     transition: background-color 0.3s ease;
+// }
+
+// body.dark tbody tr:nth-child(even) {
+//     background-color: var(--nord1); /* Чередование цвета строк */
+// }
+
+// body.dark tbody tr:hover {
+//     background-color: var(--nord3); /* Цвет строки при наведении */
+// }
+
+// /* Общие стили для заголовков и ячеек */
+// th, td {
+//     padding: 4px 8px; /* Очень маленькие отступы для компактности */
+//     text-align: left;
+//     border-right: 1px solid var(--nord3); /* Добавляем вертикальные линии */
+// }
+
+// /* Убираем правую границу у последней ячейки строки */
+// th:last-child, td:last-child {
+//     border-right: none;
+// }
+
+// /* Стили для заголовков таблицы */
+// th {
+//     font-weight: 600; /* Более жирный текст для заголовков */
+//     border-bottom: 2px solid var(--nord3); /* Подчеркивание для заголовков */
+//     padding: 6px 10px; /* Немного больше отступов для заголовков */
+// }
+
+// /* Стили для ячеек таблицы */
+// td {
+//     border-bottom: 1px solid var(--nord3); /* Легкая граница между строками */
+// }
+
+// /* Убираем нижнюю границу у последней строки */
+// tbody tr:last-child td {
+//     border-bottom: none;
+// }
 
 
 // // Стили для заголовков таблицы V0
