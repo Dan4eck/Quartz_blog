@@ -1,3 +1,4 @@
+.obsidian
 # macOS
 .DS_Store
 .AppleDouble
@@ -6,3 +7,4 @@
 # Windows
 Thumbs.db
 desktop.ini
+.DS_Store
