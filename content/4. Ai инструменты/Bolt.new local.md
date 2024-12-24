@@ -6,7 +6,7 @@
 **bolt.new** — это инструмент для разработки и запуска веб-приложений с помощью различных языковых моделей (LLM), таких как OpenAI, Anthropic и другие. Данная инструкция поможет вам развернуть **bolt.new** локально и начать разрабатывать свои проекты.
 ##### Репозиторий проекта:
 
-[GitHub - coleam00/bolt.new-any-llm: Prompt, run, edit, and deploy full-stack web applications using any LLM you want!](https://github.com/coleam00/bolt.new-any-llm)
+[GitHub - stackblitz-labs/bolt.diy: Prompt, run, edit, and deploy full-stack web applications using any LLM you want!](https://github.com/stackblitz-labs/bolt.diy)
 
 > [!attention] Все команды выполняются в терминале!
 >
@@ -17,12 +17,12 @@
 
 - **Клонируйте репозиторий:**
 ```zsh
-git clone https://github.com/coleam00/bolt.new-any-llm.git
+git clone https://github.com/stackblitz-labs/bolt.diy.git
 ```
 
 - **Перейдите в каталог проекта:**
 ```zsh
-cd bolt.new-any-llm
+cd bolt.diy
 ```
 
 - **Установить pnpm с помощью этой команды (pnpm — более быстрый менеджер пакетов, чем npm):**
@@ -37,7 +37,7 @@ pnpm install
 
 - **Настройка переменных окружения:** 
 	Переименуйте файл `.env.example` в `.env.local`, вы найдете этот файл по адресу 
-	"[your name]/bold.new-any-llm/.env.example" и добавьте необходимые API-ключи для используемых моделей, например:
+	"[your name]/bold.diy/.env.example" и добавьте необходимые API-ключи для используемых моделей, например:
 	
 ```zsh
 	GROQ_API_KEY=Ваш_ключ
@@ -54,7 +54,7 @@ pnpm run dev
 ```zsh
 ❯ pnpm run dev
 
-> bolt@ dev /Users/user/bolt.new-any-llm
+> bolt@ dev /Users/user/bolt.diy
 > remix vite:dev
 
   ➜  Local:   http://localhost:5173/
@@ -67,12 +67,12 @@ pnpm run dev
 > [!attention] Внимание!  
 > Для корректной работы необходимо использовать браузер **[Chrome Canary](https://www.google.com/intl/ru/chrome/canary/)**.
 >
-> Это связано с тем, что **Bolt.new-any-llm** интегрируется с **StackBlitz WebContainers**, которые обеспечивают полноценную среду разработки в браузере. **WebContainers** требуют поддержки новейших веб-стандартов, доступных в браузере для разработчиков — **Chrome Canary**.
+> Это связано с тем, что **Bolt.diy** интегрируется с **StackBlitz WebContainers**, которые обеспечивают полноценную среду разработки в браузере. **WebContainers** требуют поддержки новейших веб-стандартов, доступных в браузере для разработчиков — **Chrome Canary**.
 #### Запуск проекта при каждом использовании
 
-1. **Перейдите в каталог проекта** (по умолчанию bolt устанавливается сюда: `/Users/user/bolt.new-any-llm`):   
+1. **Перейдите в каталог проекта** (по умолчанию bolt устанавливается сюда: `/Users/user/bolt.diy`):   
      ```zsh
-   cd bolt.new-any-llm
+   cd bolt.diy
    ```
    
 2. **Запустите проект в режиме разработки:**   
@@ -98,6 +98,6 @@ pnpm run dev
 
 ## Заключение
 
-Теперь вы готовы использовать **bolt.new** для разработки и тестирования ваших веб-приложений локально. Следуйте инструкциям выше для каждого запуска, чтобы убедиться, что ваш проект работает корректно и стабильно.
+Теперь вы готовы использовать **bolt.diy** для разработки и тестирования ваших веб-приложений локально. Следуйте инструкциям выше для каждого запуска, чтобы убедиться, что ваш проект работает корректно и стабильно.
 
 #Ai  
